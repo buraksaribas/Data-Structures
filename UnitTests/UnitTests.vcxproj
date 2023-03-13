@@ -163,6 +163,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="DynamicArrayTest.cpp" />
+    <ClCompile Include="LinkedListTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -170,6 +171,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Arrays\Arrays.vcxproj">
       <Project>{203c6a41-7f1a-4641-bf2d-e4bae64e0ab5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\LinkedList\LinkedList.vcxproj">
+      <Project>{9814f7bf-e297-4c41-aaa9-f6311ac92f63}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
