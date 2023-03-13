@@ -164,6 +164,8 @@
     </ClCompile>
     <ClCompile Include="DynamicArrayTest.cpp" />
     <ClCompile Include="LinkedListTest.cpp" />
+    <ClCompile Include="QueueArrayTest.cpp" />
+    <ClCompile Include="QueueListTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />

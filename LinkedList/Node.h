@@ -1,4 +1,5 @@
-#pragma once
+#ifndef NODE_H
+#define NODE_H
 
 template <typename T>
 class Node
@@ -26,3 +27,5 @@ private:
 	T _data;
 	Node<T>* _next;
 };
+
+#endif
